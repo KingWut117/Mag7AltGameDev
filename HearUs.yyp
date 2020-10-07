@@ -1,7 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"objGameManager","path":"objects/objGameManager/objGameManager.yy",},"order":1,},
     {"id":{"name":"PlayButtonSpr","path":"sprites/PlayButtonSpr/PlayButtonSpr.yy",},"order":0,},
-    {"id":{"name":"PlayButtonObj","path":"objects/PlayButtonObj/PlayButtonObj.yy",},"order":0,},
+    {"id":{"name":"DrawNineSlice","path":"scripts/DrawNineSlice/DrawNineSlice.yy",},"order":0,},
+    {"id":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"order":2,},
+    {"id":{"name":"sprDialougeBubble","path":"sprites/sprDialougeBubble/sprDialougeBubble.yy",},"order":1,},
+    {"id":{"name":"objPlayButton","path":"objects/objPlayButton/objPlayButton.yy",},"order":0,},
+    {"id":{"name":"fntDialogBubble","path":"fonts/fntDialogBubble/fntDialogBubble.yy",},"order":0,},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":0,},
   ],
   "Options": [
