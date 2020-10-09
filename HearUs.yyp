@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"DialogBubbleWriter","path":"scripts/DialogBubbleWriter/DialogBubbleWriter.yy",},"order":1,},
     {"id":{"name":"rmConversation","path":"rooms/rmConversation/rmConversation.yy",},"order":5,},
     {"id":{"name":"objGameManager","path":"objects/objGameManager/objGameManager.yy",},"order":1,},
     {"id":{"name":"PlayButtonSpr","path":"sprites/PlayButtonSpr/PlayButtonSpr.yy",},"order":0,},

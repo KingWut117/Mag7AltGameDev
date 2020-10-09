@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"objNextButton","path":"objects/objNextButton/objNextButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":672.0,"resourceVersion":"1.0","name":"inst_6CC5A487","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objNextButton","path":"objects/objNextButton/objNextButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":640.0,"resourceVersion":"1.0","name":"inst_6CC5A487","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"text","path":"objects/objDialogBubble/objDialogBubble.yy",},"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"value":"Bullies","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":33.0,"scaleY":9.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":224.0,"resourceVersion":"1.0","name":"inst_1BE5A641","tags":[],"resourceType":"GMRInstance",},
