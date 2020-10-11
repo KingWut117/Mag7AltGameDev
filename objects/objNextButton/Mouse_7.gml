@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this edit = 1;
 
-if room = rmCarHonks
+if (room == rmCarHonks) {
 	room_goto(Menu);
-else
+}
+else {
 	room_goto_next();
+}
 

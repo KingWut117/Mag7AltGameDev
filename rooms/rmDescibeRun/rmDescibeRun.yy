@@ -26,8 +26,8 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_58CD7028","path":"rooms/rmDescibeHearing/rmDescibeHearing.yy",},
-    {"name":"inst_492F5763","path":"rooms/rmDescibeHearing/rmDescibeHearing.yy",},
+    {"name":"inst_58CD7028","path":"rooms/rmDescibeRun/rmDescibeRun.yy",},
+    {"name":"inst_492F5763","path":"rooms/rmDescibeRun/rmDescibeRun.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -55,7 +55,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "rmDescibeHearing",
+  "name": "rmDescibeRun",
   "tags": [],
   "resourceType": "GMRoom",
 }
