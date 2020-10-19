@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"DialogBubbleWriter","path":"scripts/DialogBubbleWriter/DialogBubbleWriter.yy",},"order":1,},
     {"id":{"name":"rmConversation","path":"rooms/rmConversation/rmConversation.yy",},"order":5,},
+    {"id":{"name":"sprLectureBackground","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"order":11,},
     {"id":{"name":"InteractButtonspr","path":"sprites/InteractButtonspr/InteractButtonspr.yy",},"order":9,},
     {"id":{"name":"objGameManager","path":"objects/objGameManager/objGameManager.yy",},"order":1,},
     {"id":{"name":"PlayButtonSpr","path":"sprites/PlayButtonSpr/PlayButtonSpr.yy",},"order":0,},
@@ -18,6 +19,7 @@
     {"id":{"name":"objNextButton","path":"objects/objNextButton/objNextButton.yy",},"order":4,},
     {"id":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"order":2,},
     {"id":{"name":"sprTitleCard","path":"sprites/sprTitleCard/sprTitleCard.yy",},"order":2,},
+    {"id":{"name":"InteractButtonPressed","path":"scripts/InteractButtonPressed/InteractButtonPressed.yy",},"order":2,},
     {"id":{"name":"rmBullies","path":"rooms/rmBullies/rmBullies.yy",},"order":4,},
     {"id":{"name":"sprTitleBackground","path":"sprites/sprTitleBackground/sprTitleBackground.yy",},"order":3,},
     {"id":{"name":"objTitleCard","path":"objects/objTitleCard/objTitleCard.yy",},"order":3,},
