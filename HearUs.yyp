@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"DialogBubbleWriter","path":"scripts/DialogBubbleWriter/DialogBubbleWriter.yy",},"order":1,},
     {"id":{"name":"rmConversation","path":"rooms/rmConversation/rmConversation.yy",},"order":5,},
+    {"id":{"name":"InteractButtonspr","path":"sprites/InteractButtonspr/InteractButtonspr.yy",},"order":9,},
     {"id":{"name":"objGameManager","path":"objects/objGameManager/objGameManager.yy",},"order":1,},
     {"id":{"name":"PlayButtonSpr","path":"sprites/PlayButtonSpr/PlayButtonSpr.yy",},"order":0,},
     {"id":{"name":"sprBulliesBackground","path":"sprites/sprBulliesBackground/sprBulliesBackground.yy",},"order":8,},
@@ -13,6 +14,7 @@
     {"id":{"name":"sprCarHonksBackground","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"order":7,},
     {"id":{"name":"fntTitleCard","path":"fonts/fntTitleCard/fntTitleCard.yy",},"order":1,},
     {"id":{"name":"rmDescibeRun","path":"rooms/rmDescibeRun/rmDescibeRun.yy",},"order":1,},
+    {"id":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"order":5,},
     {"id":{"name":"objNextButton","path":"objects/objNextButton/objNextButton.yy",},"order":4,},
     {"id":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"order":2,},
     {"id":{"name":"sprTitleCard","path":"sprites/sprTitleCard/sprTitleCard.yy",},"order":2,},
