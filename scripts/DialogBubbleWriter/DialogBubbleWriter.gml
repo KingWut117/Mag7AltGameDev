@@ -26,7 +26,7 @@ function DialogBubbleWriter(runType, roomName){
 	
 	if(runType == global.RUN_TYPES.Play){
 		if(roomName == global.ROOMS.AlarmClock){
-			return "Alarm Clock (hearing)";
+			return "BREAKING NEWS: Deaf kids allowed at school";
 		}
 		if(roomName == global.ROOMS.Bullies){
 			return "Bullies (hearing)";
