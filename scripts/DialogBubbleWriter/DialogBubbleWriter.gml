@@ -9,7 +9,7 @@ global.ROOMS = {
 	Bullies : "rmBullies",
 	CarHonks : "rmCarHonks",
 	Conversation : "rmConversation",
-	DescribeRun : "rmDescibeRun",
+	DescribeRun : "rmDescribeRun",
 	LectureGame : "rmLectureGame"
 }
 

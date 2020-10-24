@@ -14,7 +14,7 @@
     {"id":{"name":"DrawNineSlice","path":"scripts/DrawNineSlice/DrawNineSlice.yy",},"order":0,},
     {"id":{"name":"sprCarHonksBackground","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"order":7,},
     {"id":{"name":"fntTitleCard","path":"fonts/fntTitleCard/fntTitleCard.yy",},"order":1,},
-    {"id":{"name":"rmDescibeRun","path":"rooms/rmDescibeRun/rmDescibeRun.yy",},"order":1,},
+    {"id":{"name":"rmDescribeRun","path":"rooms/rmDescribeRun/rmDescribeRun.yy",},"order":1,},
     {"id":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"order":5,},
     {"id":{"name":"objNextButton","path":"objects/objNextButton/objNextButton.yy",},"order":4,},
     {"id":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"order":2,},
@@ -43,7 +43,7 @@
   },
   "RoomOrder": [
     {"name":"Menu","path":"rooms/Menu/Menu.yy",},
-    {"name":"rmDescibeRun","path":"rooms/rmDescibeRun/rmDescibeRun.yy",},
+    {"name":"rmDescribeRun","path":"rooms/rmDescribeRun/rmDescribeRun.yy",},
     {"name":"rmAlarmClock","path":"rooms/rmAlarmClock/rmAlarmClock.yy",},
     {"name":"rmLectureGame","path":"rooms/rmLectureGame/rmLectureGame.yy",},
     {"name":"rmBullies","path":"rooms/rmBullies/rmBullies.yy",},
