@@ -9,6 +9,9 @@ switch(roomName) {
 		
 	case "rmLectureGame" :
 		global.activeNextButton = false;
+		instance_deactivate_object(objInteractButton);
+		lectureDialog.text = "Proper grammar is important in writing.";
+		alarm[0] = 5*room_speed;
 		break;
 	
 	case "rmAlarmClock" :
