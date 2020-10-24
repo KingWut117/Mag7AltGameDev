@@ -17,6 +17,7 @@ switch(buttonName){
 				else
 					text = global.DIALOGUE.Conv2Positive2;
 				break;
+			case 2 : instance_deactivate_object(objInteractButton); break;
 			}
 		break;
 	case "convNegative" :
@@ -33,6 +34,7 @@ switch(buttonName){
 				else
 					text = global.DIALOGUE.Conv2Negative2;
 				break;
+			case 2 : instance_deactivate_object(objInteractButton); break;
 			}
 		break;
 	case "convNeutral" :
@@ -49,6 +51,7 @@ switch(buttonName){
 				else
 					text = global.DIALOGUE.Conv2Neutral2;
 				break;
+			case 2 : instance_deactivate_object(objInteractButton); break;
 			}
 		break;
 	case "convSarcastic" :
@@ -65,6 +68,7 @@ switch(buttonName){
 				else
 					text = global.DIALOGUE.Conv2Sarcastic2;
 				break;
+			case 2 : instance_deactivate_object(objInteractButton); break;
 			}
 		break;
 }
