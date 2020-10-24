@@ -19,6 +19,7 @@
     {"id":{"name":"objNextButton","path":"objects/objNextButton/objNextButton.yy",},"order":4,},
     {"id":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"order":2,},
     {"id":{"name":"sprTitleCard","path":"sprites/sprTitleCard/sprTitleCard.yy",},"order":2,},
+    {"id":{"name":"sprConversationBackground","path":"sprites/sprConversationBackground/sprConversationBackground.yy",},"order":12,},
     {"id":{"name":"InteractButtonPressed","path":"scripts/InteractButtonPressed/InteractButtonPressed.yy",},"order":2,},
     {"id":{"name":"rmBullies","path":"rooms/rmBullies/rmBullies.yy",},"order":4,},
     {"id":{"name":"sprTitleBackground","path":"sprites/sprTitleBackground/sprTitleBackground.yy",},"order":3,},

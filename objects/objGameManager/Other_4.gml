@@ -21,6 +21,7 @@ switch(roomName) {
 		break;
 	
 	case "rmAlarmClock" :
+		instance_deactivate_object(objDialogBubble);
 		global.activeNextButton = true;
 		break;
 		
@@ -33,6 +34,7 @@ switch(roomName) {
 		break;
 		
 	case "rmConversation" :
+		global.convCounter = 0;
 		global.activeNextButton = true;
 		break;
 

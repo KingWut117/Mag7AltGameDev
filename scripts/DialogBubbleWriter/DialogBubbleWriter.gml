@@ -13,10 +13,6 @@ global.ROOMS = {
 	LectureGame : "rmLectureGame"
 }
 
-global.DIALOGUE = {
-	Conversation1 : "Text",
-	Conversation2 : "Text2"
-}
 
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
@@ -35,11 +31,11 @@ function DialogBubbleWriter(runType, roomName){
 			return "Car Honks (hearing)";
 		}
 		if(roomName == global.ROOMS.Conversation){
-			textNum = irandom(1)+1;
+			textNum = irandom_range(1, 2);
 			if(textNum == 1)
-				return global.DIALOGUE.Conversation1;
+				return global.DIALOGUE.Conv1Start1;
 			else
-				return global.DIALOGUE.Conversation2;
+				return global.DIALOGUE.Conv1Start2;
 		}
 		if(roomName == global.ROOMS.DescribeRun){
 			return "Describe Run (hearing)";

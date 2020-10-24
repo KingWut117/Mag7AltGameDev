@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-instance_deactivate_object(instAlarmClockDialog)
+rng = irandom_range(1, 2);
 curFrame = 0;
