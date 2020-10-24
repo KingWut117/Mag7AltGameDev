@@ -2,20 +2,11 @@
 // You can write your code in this editor
 var roomName = room_get_name(room);
 switch(roomName) {
-	/*
-	case "Menu" :
-		for(var i = 0; i < array_length(options); i++) {
-		var option = options[i];
-		var button = instance_create_layer(40 + i * 300, room_height - 80, "Instances", objPlayButton);
-		with (button)
-		{
-			action = option;
-			text = option;
-			image_xscale = 1;
-		}
-		}
-	break;
-	*/
+	
+	case "Menu" : 
+		randomize();
+		break;
+		
 	case "rmLectureGame" :
 		global.activeNextButton = false;
 		break;
