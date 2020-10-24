@@ -33,6 +33,7 @@ switch(roomName) {
 		break;
 
 	case "rmDescribeRun" :
-		global.activeNextButton = true;
+		global.activeNextButton = false;
+		alarm[1] = 5*room_speed;
 		break;
 }
