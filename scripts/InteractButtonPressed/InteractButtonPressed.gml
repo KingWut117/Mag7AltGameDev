@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-global.DIALOGUE = {
+global.DIALOG = {
 	Conv1Start1 : "Hey, how was class this morning?",
 	Conv1Start2 : "So what did the teacher do to you today?",
 	
@@ -27,7 +27,12 @@ global.DIALOGUE = {
 	Conv2Sarcastic2 : "I can’t wait for tomorrow! Because today will be over by then.",
 	
 	Conv2Response1 : "I guess you’re happy that class is over for this week?",
-	Conv2Response2 : "Well I’m okay with school right now, I got an A on my quiz yesterday."
+	Conv2Response2 : "Well I’m okay with school right now, I got an A on my quiz yesterday.",
+	
+	WrongCarResponse: "Oops, sorry wrong car.",
+	CorrectCarResponse: "Hi honey. Lets go home and make dinner."
+
+
 }
 
 
@@ -36,8 +41,11 @@ function InteractButtonPressed(buttonName){
 	var rng = 0;
 	switch(buttonName)
 	{
+		
+	// Alarm Clock Scene
 	case "alarmButton" : instance_activate_object(instAlarmClockDialog); break;
 		
+	//Lecture Game Scene
 	case "lectureWrongButton1" : 
 	case "lectureWrongButton2" : 
 	case "lectureWrongButton3" : 
@@ -47,22 +55,40 @@ function InteractButtonPressed(buttonName){
 		break;
 	case "lectureRightButton" : lectureDialog.text = "Good, I am glad you are paying attention."; global.activeNextButton = true; break;
 	
+	// Bully Scene
+	case "BullyOption1" :
+	case "BullyOption2" :
+	case "BullyOption3" :
+		BullyDialog.text = "You are lucky there are people watching us, See you around deaf boy.";
+		global.activeNextButton = true
+		break;
+	
+	case "BullyOption4" :
+		BullyDialog.text = "Whats the matter, cant hear what im saying? HAHAHA";
+		global.activeNextButton = true
+		break;
+	
+	case "CarOption1":
+		global.activeNextButton = true
+		break;
+	
+	//Conversation Scene
 	case "convPositive": case "convNegative" : case "convNeutral" : case "convSarcastic" :
 		rng = irandom_range(1, 2);
 		switch(rng){
 			case 1 :
 				switch(global.convCounter){
-					case 0 : convDialog.text = global.DIALOGUE.Conv1Response1; break;
-					case 1 : convDialog.text = global.DIALOGUE.Conv2Response1; break;
+					case 0 : convDialog.text = global.DIALOG.Conv1Response1; break;
+					case 1 : convDialog.text = global.DIALOG.Conv2Response1; break;
 				}
 			case 2 :
 				switch(global.convCounter){
-					case 0 : convDialog.text = global.DIALOGUE.Conv1Response2; break;
-					case 1 : convDialog.text = global.DIALOGUE.Conv2Response2; break;
-				}
+					case 0 : convDialog.text = global.DIALOG.Conv1Response2; break;
+					case 1 : convDialog.text = global.DIALOG.Conv2Response2; break;
+				}		
 				
 		}
-		global.convCounter++;
+		global.convCounter++; 
 		break;
 	}
 }

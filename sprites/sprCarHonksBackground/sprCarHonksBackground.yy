@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4335a0d6-a564-482e-b5a6-fa952a78725a","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4335a0d6-a564-482e-b5a6-fa952a78725a","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"LayerId":{"name":"f5870d7d-753e-49c9-83f3-6f70776221e6","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprCarHonksBackground","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"resourceVersion":"1.0","name":"4335a0d6-a564-482e-b5a6-fa952a78725a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e7a80ee8-4f69-45d5-9eb9-e93e862d01f8","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e7a80ee8-4f69-45d5-9eb9-e93e862d01f8","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"LayerId":{"name":"e40692d6-672a-41c1-856c-688a92dd8c31","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprCarHonksBackground","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"resourceVersion":"1.0","name":"e7a80ee8-4f69-45d5-9eb9-e93e862d01f8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprCarHonksBackground","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"924ec4a7-03d9-4e17-ac7c-c53580565ecb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4335a0d6-a564-482e-b5a6-fa952a78725a","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"513e000e-1f18-4617-b8f6-b02e4c7faba0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e7a80ee8-4f69-45d5-9eb9-e93e862d01f8","path":"sprites/sprCarHonksBackground/sprCarHonksBackground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f5870d7d-753e-49c9-83f3-6f70776221e6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e40692d6-672a-41c1-856c-688a92dd8c31","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",

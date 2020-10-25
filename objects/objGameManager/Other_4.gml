@@ -20,11 +20,12 @@ switch(roomName) {
 		break;
 		
 	case "rmBullies" :
-		global.activeNextButton = true;
+		global.activeNextButton = false;
+		alarm[2] = 5*room_speed;
 		break;
 		
 	case "rmCarHonks" :
-		global.activeNextButton = true;
+		global.activeNextButton = false;
 		break;
 		
 	case "rmConversation" :

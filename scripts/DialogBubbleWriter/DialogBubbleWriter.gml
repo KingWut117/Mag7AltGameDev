@@ -25,17 +25,17 @@ function DialogBubbleWriter(runType, roomName){
 			return "BREAKING NEWS: Deaf kids allowed at school";
 		}
 		if(roomName == global.ROOMS.Bullies){
-			return "Bullies (hearing)";
+			return "Look, the chosen one is coming！HAHAHAHA";
 		}
 		if(roomName == global.ROOMS.CarHonks){
-			return "Car Honks (hearing)";
+			return "I cant hear the car honking";
 		}
 		if(roomName == global.ROOMS.Conversation){
 			textNum = irandom_range(1, 2);
 			if(textNum == 1)
-				return global.DIALOGUE.Conv1Start1;
+				return global.DIALOG.Conv1Start1;
 			else
-				return global.DIALOGUE.Conv1Start2;
+				return global.DIALOG.Conv1Start2;
 		}
 		if(roomName == global.ROOMS.DescribeRun){
 			return "Describe Run (hearing)";
