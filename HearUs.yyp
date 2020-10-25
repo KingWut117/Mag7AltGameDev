@@ -20,6 +20,7 @@
     {"id":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"order":2,},
     {"id":{"name":"sprTitleCard","path":"sprites/sprTitleCard/sprTitleCard.yy",},"order":2,},
     {"id":{"name":"sprConversationBackground","path":"sprites/sprConversationBackground/sprConversationBackground.yy",},"order":12,},
+    {"id":{"name":"rmConclusion","path":"rooms/rmConclusion/rmConclusion.yy",},"order":7,},
     {"id":{"name":"InteractButtonPressed","path":"scripts/InteractButtonPressed/InteractButtonPressed.yy",},"order":2,},
     {"id":{"name":"rmBullies","path":"rooms/rmBullies/rmBullies.yy",},"order":4,},
     {"id":{"name":"sprTitleBackground","path":"sprites/sprTitleBackground/sprTitleBackground.yy",},"order":3,},
@@ -50,6 +51,7 @@
     {"name":"rmBullies","path":"rooms/rmBullies/rmBullies.yy",},
     {"name":"rmConversation","path":"rooms/rmConversation/rmConversation.yy",},
     {"name":"rmCarHonks","path":"rooms/rmCarHonks/rmCarHonks.yy",},
+    {"name":"rmConclusion","path":"rooms/rmConclusion/rmConclusion.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -29,10 +29,6 @@ global.DIALOG = {
 	Conv2Response1 : "I guess you’re happy that class is over for this week?",
 	Conv2Response2 : "Well I’m okay with school right now, I got an A on my quiz yesterday.",
 	
-	WrongCarResponse: "Oops, sorry wrong car.",
-	CorrectCarResponse: "Hi honey. Lets go home and make dinner."
-
-
 }
 
 

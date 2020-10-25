@@ -38,7 +38,7 @@ function DialogBubbleWriter(runType, roomName){
 				return global.DIALOG.Conv1Start2;
 		}
 		if(roomName == global.ROOMS.DescribeRun){
-			return "Describe Run (hearing)";
+			return "The perspectives portrayed in this story do not apply to all individuals, hearing or Deaf, referenced in this game. This game is meant to provide exaggerated experiences that would not otherwise be understood.";
 		}
 		if(roomName == global.ROOMS.LectureGame){
 			
