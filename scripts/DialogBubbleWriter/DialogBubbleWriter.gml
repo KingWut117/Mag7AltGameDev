@@ -10,7 +10,8 @@ global.ROOMS = {
 	CarHonks : "rmCarHonks",
 	Conversation : "rmConversation",
 	DescribeRun : "rmDescribeRun",
-	LectureGame : "rmLectureGame"
+	LectureGame : "rmLectureGame",
+	Conclusion : "rmConclusion"
 }
 
 
@@ -41,8 +42,11 @@ function DialogBubbleWriter(runType, roomName){
 			return "The perspectives portrayed in this story do not apply to all individuals, hearing or Deaf, referenced in this game. This game is meant to provide exaggerated experiences that would not otherwise be understood.";
 		}
 		if(roomName == global.ROOMS.LectureGame){
-			
 			return "Lecture Game (hearing)";
+		}
+			
+		if(roomName == global.ROOMS.Conclusion){
+			return "Regardless of who you are and what you background status is. We all walk the same path of life and experience the world as it is meant to be. Through your own eyes as your own world."
 		}
 	}
 }
