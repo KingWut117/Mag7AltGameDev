@@ -18,16 +18,7 @@ switch(roomName) {
 		instance_deactivate_object(objDialogBubble);
 		global.activeNextButton = true;
 		break;
-		
-	case "rmBullies" :
-		global.activeNextButton = false;
-		alarm[2] = 5*room_speed;
-		break;
-		
-	case "rmCarHonks" :
-		global.activeNextButton = false;
-		break;
-		
+			
 	case "rmConversation" :
 		global.convCounter = 0;
 		global.activeNextButton = true;

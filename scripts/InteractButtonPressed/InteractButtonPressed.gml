@@ -51,23 +51,6 @@ function InteractButtonPressed(buttonName){
 		break;
 	case "lectureRightButton" : lectureDialog.text = "Good, I am glad you are paying attention."; global.activeNextButton = true; break;
 	
-	// Bully Scene
-	case "BullyOption1" :
-	case "BullyOption2" :
-	case "BullyOption3" :
-		BullyDialog.text = "You are lucky there are people watching us, See you around deaf boy.";
-		global.activeNextButton = true
-		break;
-	
-	case "BullyOption4" :
-		BullyDialog.text = "Whats the matter, cant hear what im saying? HAHAHA";
-		global.activeNextButton = true
-		break;
-	
-	case "CarOption1":
-		global.activeNextButton = true
-		break;
-	
 	//Conversation Scene
 	case "convPositive": case "convNegative" : case "convNeutral" : case "convSarcastic" :
 		rng = irandom_range(1, 2);

@@ -5,13 +5,38 @@ global.RUN_TYPES = {
 }
 
 global.ROOMS = {
-	AlarmClock : "rmAlarmClock",
-	Bullies : "rmBullies",
-	CarHonks : "rmCarHonks",
-	Conversation : "rmConversation",
+	//HEARING ROOMS
 	DescribeRun : "rmDescribeRun",
+	AlarmClock : "rmAlarmClock",
+	TransFromAlarm : "rmTransFromAlarm",
 	LectureGame : "rmLectureGame",
-	Conclusion : "rmConclusion"
+	TransFromLecture : "rmTransFromLecture",
+	Conversation : "rmConversation",
+	TransFromConversation : "rmTransFromConversation",
+	GoingHome : "rmGoingHome",
+	TransToImplant : "rmTransToImplant",
+	
+	//IMPLANT ROOMS
+	DescribeRunImplant : "rmDescribeRunImplant",
+	AlarmClockImplant : "rmAlarmClockImplant",
+	TransFromAlarmImplant : "rmTransFromAlarmImplant",
+	LectureGameImplant : "rmLectureGameImplant",
+	TransFromLectureImplant : "rmTransFromLectureImplant",
+	ConversationImplant : "rmConversationImplant",
+	TransFromConversationImplant : "rmTransFromConversationImplant",
+	GoingHomeImplant : "rmGoinghomeImplant",
+	TransToDeaf : "rmTransToDeaf",
+	
+	//DEAF ROOMS
+	DescribeRunDeaf : "rmDescribeRunDeaf ",
+	AlarmClockDeaf  : "rmAlarmClockDeaf ",
+	TransFromAlarmDeaf  : "rmTransFromAlarmDeaf ",
+	LectureGameDeaf : "rmLectureGameDeaf ",
+	TransFromLectureDeaf  : "rmTransFromLectureDeaf ",
+	ConversationDeaf  : "rmConversationDeaf ",
+	TransFromConversationDeaf  : "rmTransFromConversationDeaf ",
+	GoingHomeDeaf  : "rmGoinghomeDeaf ",
+	TransToEnd: "rmTransToEnd"
 }
 
 
@@ -22,14 +47,10 @@ function DialogBubbleWriter(runType, roomName){
 	textNum = 0;
 	
 	if(runType == global.RUN_TYPES.Play){
+		
+		//HEARING ROUTE DIALOG
 		if(roomName == global.ROOMS.AlarmClock){
 			return "BREAKING NEWS: Deaf kids allowed at school";
-		}
-		if(roomName == global.ROOMS.Bullies){
-			return "Look, the chosen one is coming！HAHAHAHA";
-		}
-		if(roomName == global.ROOMS.CarHonks){
-			return "I cant hear the car honking";
 		}
 		if(roomName == global.ROOMS.Conversation){
 			textNum = irandom_range(1, 2);
@@ -45,50 +66,106 @@ function DialogBubbleWriter(runType, roomName){
 			return "Lecture Game (hearing)";
 		}
 			
-		if(roomName == global.ROOMS.Conclusion){
-			return "Regardless of who you are and what you background status is. We all walk the same path of life and experience the world as it is meant to be. Through your own eyes as your own world."
+		if(roomName == global.ROOMS.GoingHome){
+			return "Set up going home room here"
+		}
+		
+		if(roomName == global.ROOMS.TransFromAlarm){
+			return "Set up transition text for Lecture Game";
+		}
+		
+		if(roomName == global.ROOMS.TransFromLecture){
+			return "Set up transition text for Conversation with Friend";
+		}
+		
+		if(roomName == global.ROOMS.TransFromConversation){
+			return "Set up transition text for conclusion of route";
+		}
+		
+		if(roomName == global.ROOMS.TransToImplant){
+			return "Set up transition text for beginning of implant route";
+		}
+		
+		
+		
+		
+		//IMPLANT ROUTE DIALOG
+		if(roomName == global.ROOMS.AlarmClockImplant){
+			return "BREAKING NEWS: Deaf kids allowed at school";
+		}
+		if(roomName == global.ROOMS.ConversationImplant){
+			textNum = irandom_range(1, 2);
+			if(textNum == 1)
+				return global.DIALOG.Conv1Start1;
+			else
+				return global.DIALOG.Conv1Start2;
+		}
+		if(roomName == global.ROOMS.DescribeRunImplant){
+			return "This is the beginning of the implant route";
+		}
+		if(roomName == global.ROOMS.LectureGameImplant){
+			return "Lecture Game (hearing)";
+		}
+			
+		if(roomName == global.ROOMS.GoingHomeImplant){
+			return "Set up going home for implant route here"
+		}
+		
+		if(roomName == global.ROOMS.TransFromAlarmImplant){
+			return "Set up transition text for Lecture Game Implant";
+		}
+		
+		if(roomName == global.ROOMS.TransFromLectureImplant){
+			return "Set up transition text for Conversation with Friend (Implant)";
+		}
+		
+		if(roomName == global.ROOMS.TransFromConversationImplant){
+			return "Set up transition text for conclusion of route (Implant)";
+		}
+		
+		if(roomName == global.ROOMS.TransToDeaf){
+			return "Set up transition text for beginning of deaf route";
+		}
+			
+			
+		
+		
+		//DEAF ROUTE DIALOG
+		if(roomName == global.ROOMS.AlarmClockDeaf){
+			return "BREAKING NEWS: Deaf kids allowed at school";
+		}
+		if(roomName == global.ROOMS.ConversationDeaf){
+			textNum = irandom_range(1, 2);
+			if(textNum == 1)
+				return global.DIALOG.Conv1Start1;
+			else
+				return global.DIALOG.Conv1Start2;
+		}
+		if(roomName == global.ROOMS.DescribeRunDeaf){
+			return "This is the beginning of the deaf route";
+		}
+		if(roomName == global.ROOMS.LectureGameDeaf){
+			return "Lecture Game (hearing)";
+		}
+			
+		if(roomName == global.ROOMS.GoingHomeDeaf){
+			return "Set up going home for deaf route here"
+		}
+		
+		if(roomName == global.ROOMS.TransFromAlarmDeaf){
+			return "Set up transition text for Lecture Game (Deaf)";
+		}
+		
+		if(roomName == global.ROOMS.TransFromLectureDeaf){
+			return "Set up transition text for Conversation with Friend (Deaf)";
+		}
+		
+		if(roomName == global.ROOMS.TransFromConversationDeaf){
+			return "Set up transition text for conclusion of route (Deaf)";
+		}
+		
+		if(roomName == global.ROOMS.TransToEnd){
+			return "Set up transition text for beginning of the end";
 		}
 	}
 }
-	
-//	if(runType == global.RUN_TYPES.Implant){
-//		if(roomName == global.ROOMS.AlarmClock){
-//			return "Alarm Clock (implant)";
-//		}
-//		if(roomName == global.ROOMS.Bullies){
-//			return "Bullies (implant)";
-//		}
-//		if(roomName == global.ROOMS.CarHonks){
-//			return "Car Honks (implant)";
-//		}
-//		if(roomName == global.ROOMS.Conversation){
-//			return "Conversation (implant)";
-//		}
-//		if(roomName == global.ROOMS.DescribeRun){
-//			return "Describe Run (implant)";
-//		}
-//		if(roomName == global.ROOMS.LectureGame){
-//			return "Lecture Game (implant)";
-//		}
-//	}
-//	if(runType == global.RUN_TYPES.Deaf){
-//		if(roomName == global.ROOMS.AlarmClock){
-//			return "Alarm Clock (deaf)";
-//		}
-//		if(roomName == global.ROOMS.Bullies){
-//			return "Bullies (deaf)";
-//		}
-//		if(roomName == global.ROOMS.CarHonks){
-//			return "Car Honks (deaf)";
-//		}
-//		if(roomName == global.ROOMS.Conversation){
-//			return "Conversation (deaf)";
-//		}
-//		if(roomName == global.ROOMS.DescribeRun){
-//			return "Describe Run (deaf)";
-//		}
-//		if(roomName == global.ROOMS.LectureGame){
-//			return "Lecture Game (deaf)";
-//		}
-//	}
-//}
