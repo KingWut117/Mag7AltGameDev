@@ -15,6 +15,8 @@ switch(roomName) {
 		break;
 	
 	case "rmAlarmClock" :
+	case "rmAlarmClockDeaf" :
+	case "rmAlarmClockImplant" :
 		instance_deactivate_object(objDialogBubble);
 		global.activeNextButton = true;
 		break;

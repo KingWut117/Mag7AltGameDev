@@ -39,7 +39,11 @@ function InteractButtonPressed(buttonName){
 	{
 		
 	// Alarm Clock Scene
-	case "alarmButton" : instance_activate_object(instAlarmClockDialog); break;
+	case "alarmButton" : 
+	case "alarmButtonDeaf" : 
+	case "alarmButtonImplant" : 
+		instance_activate_object(objDialogBubble); 
+		break;
 		
 	//Lecture Game Scene
 	case "lectureWrongButton1" : 
@@ -47,7 +51,7 @@ function InteractButtonPressed(buttonName){
 	case "lectureWrongButton3" : 
 		instance_deactivate_object(objInteractButton);
 		lectureDialog.text = "That is not what I said. Try again."; 
-		objGameManager.alarm[0] = 5*room_speed;
+		objGameManager.alarm[2] = 3*room_speed;
 		break;
 	case "lectureRightButton" : lectureDialog.text = "Good, I am glad you are paying attention."; global.activeNextButton = true; break;
 	
