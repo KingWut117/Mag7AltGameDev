@@ -24,18 +24,18 @@ global.ROOMS = {
 	TransFromLectureImplant : "rmTransFromLectureImplant",
 	ConversationImplant : "rmConversationImplant",
 	TransFromConversationImplant : "rmTransFromConversationImplant",
-	GoingHomeImplant : "rmGoinghomeImplant",
+	GoingHomeImplant : "rmGoingHomeImplant",
 	TransToDeaf : "rmTransToDeaf",
 	
 	//DEAF ROOMS
-	DescribeRunDeaf : "rmDescribeRunDeaf ",
-	AlarmClockDeaf  : "rmAlarmClockDeaf ",
-	TransFromAlarmDeaf  : "rmTransFromAlarmDeaf ",
-	LectureGameDeaf : "rmLectureGameDeaf ",
-	TransFromLectureDeaf  : "rmTransFromLectureDeaf ",
-	ConversationDeaf  : "rmConversationDeaf ",
-	TransFromConversationDeaf  : "rmTransFromConversationDeaf ",
-	GoingHomeDeaf  : "rmGoinghomeDeaf ",
+	DescribeRunDeaf : "rmDescribeRunDeaf",
+	AlarmClockDeaf  : "rmAlarmClockDeaf",
+	TransFromAlarmDeaf  : "rmTransFromAlarmDeaf",
+	LectureGameDeaf : "rmLectureGameDeaf",
+	TransFromLectureDeaf  : "rmTransFromLectureDeaf",
+	ConversationDeaf  : "rmConversationDeaf",
+	TransFromConversationDeaf  : "rmTransFromConversationDeaf",
+	GoingHomeDeaf  : "rmGoingHomeDeaf",
 	TransToEnd: "rmTransToEnd"
 }
 
@@ -145,7 +145,7 @@ function DialogBubbleWriter(runType, roomName){
 			return "This is the beginning of the deaf route";
 		}
 		if(roomName == global.ROOMS.LectureGameDeaf){
-			return "Lecture Game (hearing)";
+			return "Lecture Game (Deaf)";
 		}
 			
 		if(roomName == global.ROOMS.GoingHomeDeaf){
