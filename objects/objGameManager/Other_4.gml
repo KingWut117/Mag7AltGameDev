@@ -11,7 +11,8 @@ switch(roomName) {
 		global.activeNextButton = false;
 		instance_deactivate_object(objInteractButton);
 		lectureDialog.text = "Proper grammar is important in writing.";
-		alarm[0] = 5*room_speed;
+		audioID = audio_play_sound(testSound, 0, false);
+		alarm[0] = room_speed*5;
 		break;
 	
 	case "rmAlarmClock" :
