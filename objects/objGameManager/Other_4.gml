@@ -31,4 +31,11 @@ switch(roomName) {
 		global.activeNextButton = false;
 		alarm[1] = 5*room_speed;
 		break;
+		
+	case "rmGoingHome" :
+	case "rmGoingHomeImplant" :
+	case "rmGoingHomeDeaf" :
+		global.activeNextButton = false
+		break;
+	
 }
