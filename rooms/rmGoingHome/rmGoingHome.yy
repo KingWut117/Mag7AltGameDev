@@ -15,7 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"objNextButton","path":"objects/objNextButton/objNextButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1216.0,"y":672.0,"resourceVersion":"1.0","name":"inst_262768F7","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":24.9999981,"scaleY":11.666667,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":32.0,"resourceVersion":"1.0","name":"MomDialog","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":24.9999981,"scaleY":11.666667,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":32.0,"resourceVersion":"1.0","name":"MomDialogHearing","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"buttonName","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"Option1GoingHome","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":576.0,"resourceVersion":"1.0","name":"Option1GoingHome","tags":[],"resourceType":"GMRInstance",},
@@ -37,7 +37,7 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_262768F7","path":"rooms/rmGoingHome/rmGoingHome.yy",},
-    {"name":"MomDialog","path":"rooms/rmGoingHome/rmGoingHome.yy",},
+    {"name":"MomDialogHearing","path":"rooms/rmGoingHome/rmGoingHome.yy",},
     {"name":"Option1GoingHome","path":"rooms/rmGoingHome/rmGoingHome.yy",},
     {"name":"Option3GoingHome","path":"rooms/rmGoingHome/rmGoingHome.yy",},
     {"name":"Option2GoingHome","path":"rooms/rmGoingHome/rmGoingHome.yy",},

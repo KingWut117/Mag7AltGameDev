@@ -60,13 +60,15 @@ function InteractButtonPressed(buttonName){
 	case "Option1GoingHome" :
 	case "Option2GoingHome" :
 	case "Option3GoingHome" :
-		momDialog.text = "You got this, focus on the rythems.";
+		MomDialogHearing.text = "You got this, focus on the rythems.";
 		break;
 		
+		
 	case "Option4GoingHome" :
-		momDialog.text = "Great job honey!";
+		MomDialogHearing.text = "Great job honey!";
 		global.activeNextButton = true;
 		break;
+		
 	
 	
 	//Conversation Scene
