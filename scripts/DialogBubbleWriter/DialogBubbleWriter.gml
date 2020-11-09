@@ -50,8 +50,10 @@ function DialogBubbleWriter(runType, roomName){
 		
 		//HEARING ROUTE DIALOG
 		if(roomName == global.ROOMS.AlarmClock){
-			return "BREAKING NEWS: Deaf kids allowed at school";
-		}
+			objDialogBubble.text = "BREAKING NEWS Deaf kids allowed at local hearing school"
+			objDialogBubblePlayer.text = "Well, guess it’s time to get this day over with. If I had a choice I would be sleeping comfortably in bed. Why do they have us go to school so early? Don’t they know that none of us want to be here let alone this early? But it’s what ever, its not like I’m going to remember this place. Now to start off the day with English."
+			}
+		
 		if(roomName == global.ROOMS.Conversation){
 			textNum = irandom_range(1, 2);
 			if(textNum == 1)

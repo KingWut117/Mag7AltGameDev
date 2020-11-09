@@ -15,13 +15,14 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"objNextButton","path":"objects/objNextButton/objNextButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":640.0,"resourceVersion":"1.0","name":"inst_4143AE20","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"text","path":"objects/objDialogBubble/objDialogBubble.yy",},"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"value":"BREAKING NEWS: Deaf kids allowed at school","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":25.0,"scaleY":7.66666651,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":512.0,"resourceVersion":"1.0","name":"instAlarmClockDialog","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":25.0,"scaleY":7.66666651,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":512.0,"resourceVersion":"1.0","name":"instAlarmClockDialog","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"buttonName","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"alarmButton","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"text","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"Click for Daily News","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.25,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":192.0,"resourceVersion":"1.0","name":"alarmButton","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/objDialogBubblePlayer/objDialogBubblePlayer.yy",},"objectId":{"name":"objDialogBubblePlayer","path":"objects/objDialogBubblePlayer/objDialogBubblePlayer.yy",},"value":"test","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"objDialogBubblePlayer","path":"objects/objDialogBubblePlayer/objDialogBubblePlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":21.0,"scaleY":10.333333,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"instPlayerDialogAlarmHearing","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"sprAlarmBackground","path":"sprites/sprAlarmBackground/sprAlarmBackground.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -32,6 +33,7 @@
     {"name":"inst_4143AE20","path":"rooms/rmAlarmClock/rmAlarmClock.yy",},
     {"name":"instAlarmClockDialog","path":"rooms/rmAlarmClock/rmAlarmClock.yy",},
     {"name":"alarmButton","path":"rooms/rmAlarmClock/rmAlarmClock.yy",},
+    {"name":"instPlayerDialogAlarmHearing","path":"rooms/rmAlarmClock/rmAlarmClock.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
