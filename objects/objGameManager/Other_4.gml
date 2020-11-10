@@ -14,7 +14,7 @@ switch(roomName) {
 		audioID = audio_play_sound(testSound, 0, false);
 		alarm[0] = room_speed*5;
 		break;
-	
+		
 	case "rmAlarmClock" :
 	case "rmAlarmClockDeaf" :
 	case "rmAlarmClockImplant" :

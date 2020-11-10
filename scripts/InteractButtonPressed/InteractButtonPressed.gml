@@ -44,6 +44,7 @@ function InteractButtonPressed(buttonName){
 	case "alarmButtonDeaf" : 
 	case "alarmButtonImplant" : 
 		instance_activate_object(objDialogBubble); 
+		audioID = audio_play_sound(sbAlarmClockNews, 0, false)
 		break;
 		
 	//Lecture Game Scene

@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"sbAlarmClockNews","path":"sounds/sbAlarmClockNews/sbAlarmClockNews.yy",},"order":1,},
     {"id":{"name":"DialogBubbleWriter","path":"scripts/DialogBubbleWriter/DialogBubbleWriter.yy",},"order":1,},
     {"id":{"name":"rmConversation","path":"rooms/rmConversation/rmConversation.yy",},"order":5,},
+    {"id":{"name":"GoToGoingHomeDeaf","path":"objects/GoToGoingHomeDeaf/GoToGoingHomeDeaf.yy",},"order":12,},
     {"id":{"name":"sprLectureBackground","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"order":11,},
     {"id":{"name":"rmTransFromConversationDeaf","path":"rooms/rmTransFromConversationDeaf/rmTransFromConversationDeaf.yy",},"order":27,},
     {"id":{"name":"rmConversationImplant","path":"rooms/rmConversationImplant/rmConversationImplant.yy",},"order":19,},
@@ -30,6 +32,7 @@
     {"id":{"name":"objDialogBubblePlayer","path":"objects/objDialogBubblePlayer/objDialogBubblePlayer.yy",},"order":9,},
     {"id":{"name":"fntTitleCard","path":"fonts/fntTitleCard/fntTitleCard.yy",},"order":1,},
     {"id":{"name":"sprCarRadio","path":"sprites/sprCarRadio/sprCarRadio.yy",},"order":13,},
+    {"id":{"name":"sbAlarmTrans","path":"sounds/sbAlarmTrans/sbAlarmTrans.yy",},"order":2,},
     {"id":{"name":"rmTransFromLectureImplant","path":"rooms/rmTransFromLectureImplant/rmTransFromLectureImplant.yy",},"order":9,},
     {"id":{"name":"rmDescribeRun","path":"rooms/rmDescribeRun/rmDescribeRun.yy",},"order":1,},
     {"id":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"order":5,},
@@ -43,6 +46,7 @@
     {"id":{"name":"rmLectureGameDeaf","path":"rooms/rmLectureGameDeaf/rmLectureGameDeaf.yy",},"order":25,},
     {"id":{"name":"sprTitleBackground","path":"sprites/sprTitleBackground/sprTitleBackground.yy",},"order":3,},
     {"id":{"name":"rmTransFromLectureDeaf","path":"rooms/rmTransFromLectureDeaf/rmTransFromLectureDeaf.yy",},"order":28,},
+    {"id":{"name":"objVisualizerController","path":"objects/objVisualizerController/objVisualizerController.yy",},"order":11,},
     {"id":{"name":"rmLectureGameImplant","path":"rooms/rmLectureGameImplant/rmLectureGameImplant.yy",},"order":15,},
     {"id":{"name":"objTitleCard","path":"objects/objTitleCard/objTitleCard.yy",},"order":3,},
     {"id":{"name":"objCarRadio","path":"objects/objCarRadio/objCarRadio.yy",},"order":6,},

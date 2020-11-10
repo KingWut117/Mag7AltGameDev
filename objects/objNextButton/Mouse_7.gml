@@ -8,5 +8,7 @@ else {
 	room_goto_next();
 }
 
+audio_stop_all()
+
 
 //fade to next room
