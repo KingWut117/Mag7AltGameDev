@@ -50,10 +50,9 @@ function DialogBubbleWriter(runType, roomName){
 		
 		//HEARING ROUTE DIALOG
 		if(roomName == global.ROOMS.AlarmClock){
-			objDialogBubble.text = "BREAKING NEWS Deaf kids allowed at local hearing school"
-			objDialogBubblePlayer.text = "Well, guess it’s time to get this day over with. If I had a choice I would be sleeping comfortably in bed. Why do they have us go to school so early? Don’t they know that none of us want to be here let alone this early? But it’s what ever, its not like I’m going to remember this place. Now to start off the day with English."
+			return "Good morning listeners of Crimson 92.8, your leading station in all things music. Currently it is 9:00 AM and time for your morning local news report. Something interesting to start the day, Brickhall Middle School is now integrating deaf students into classes. I applaud the school board for this movement! Well done. We will be right back after this commercial break."
 			}
-		
+	
 		if(roomName == global.ROOMS.Conversation){
 			textNum = irandom_range(1, 2);
 			if(textNum == 1)
@@ -62,7 +61,7 @@ function DialogBubbleWriter(runType, roomName){
 				return global.DIALOG.Conv1Start2;
 		}
 		if(roomName == global.ROOMS.DescribeRun){
-			return "The perspectives portrayed in this story do not apply to all individuals, hearing or Deaf, referenced in this game. This game is meant to provide exaggerated experiences that would not otherwise be understood.";
+			return "Please note, the experiences portrayed in this game is purposefully elaborated. All experiences and perspectives by the characters are a general sense for Deaf individuals with or without a cochlear implant. Not everyone experiences being Deaf the same.";
 		}
 		if(roomName == global.ROOMS.LectureGame){
 			return "Lecture Game (hearing)";
@@ -73,7 +72,7 @@ function DialogBubbleWriter(runType, roomName){
 		}
 		
 		if(roomName == global.ROOMS.TransFromAlarm){
-			return "Set up transition text for Lecture Game";
+			return "Well, guess it’s time to get this day over with. If I had a choice I would be sleeping comfortably in bed. Why do they have us go to school so early? Don’t they know that none of us want to be here let alone this early? But it’s what ever, its not like I’m going to remember this place. Now to start off the day with English.";
 		}
 		
 		if(roomName == global.ROOMS.TransFromLecture){
