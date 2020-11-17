@@ -45,18 +45,36 @@ function InteractButtonPressed(buttonName){
 	case "alarmButtonImplant" : 
 		instance_activate_object(objDialogBubble); 
 		audioID = audio_play_sound(sbAlarmClockNews, 0, false)
+		is_playing_sound = 0
+		if audio_is_playing(sbAlarmClockNews){
+			global.activeNextButton = false;
+			is_playing_sound = 1
+		}
+		if (is_playing_sound == 1){
+			global.activeNextButton = true;
+		}
+
 		break;
 		
 	//Lecture Game Scene
 	case "lectureWrongButton1" : 
-	case "lectureWrongButton2" : 
-	case "lectureWrongButton3" : 
+		audio_play_sound(sbTeacherResponse1Hearing, 0, 0);
 		instance_deactivate_object(objInteractButton);
-		lectureDialog.text = "That is not what I said. Try again."; 
+		objGameManager.alarm[2] = 3*room_speed;
+	case "lectureWrongButton2" : 
+		audio_play_sound(sbTeacherResponse3Hearing, 0, 0);
+		instance_deactivate_object(objInteractButton);
+		objGameManager.alarm[2] = 3*room_speed;
+	case "lectureWrongButton3" : 
+		audio_play_sound(sbTeacherResponse4Hearing, 0, 0);
+		instance_deactivate_object(objInteractButton);
 		objGameManager.alarm[2] = 3*room_speed;
 		break;
-	case "lectureRightButton" : lectureDialog.text = "Good, I am glad you are paying attention."; global.activeNextButton = true; break;
-	
+	case "lectureRightButton" :
+		audio_play_sound(sbTeacherResponse2Hearing, 0, 0);
+		global.activeNextButton = true;
+		break;
+		
 	
 	//Going Home Scene
 	case "Option1GoingHome" :

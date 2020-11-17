@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1365,
+  "bbox_right": 1364,
   "bbox_top": 0,
   "bbox_bottom": 767,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1366,
+  "width": 1365,
   "height": 768,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"89f91a39-ddcc-43a6-ae99-599c3517eb63","path":"sprites/sprAlarmBackground/sprAlarmBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"89f91a39-ddcc-43a6-ae99-599c3517eb63","path":"sprites/sprAlarmBackground/sprAlarmBackground.yy",},"LayerId":{"name":"d6a8ace6-3af2-4628-b25b-3753a21d85ba","path":"sprites/sprAlarmBackground/sprAlarmBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAlarmBackground","path":"sprites/sprAlarmBackground/sprAlarmBackground.yy",},"resourceVersion":"1.0","name":"89f91a39-ddcc-43a6-ae99-599c3517eb63","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1b5e0bd0-f4fe-45d3-bd70-ab8a09b36b03","path":"sprites/sprGoingHome/sprGoingHome.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1b5e0bd0-f4fe-45d3-bd70-ab8a09b36b03","path":"sprites/sprGoingHome/sprGoingHome.yy",},"LayerId":{"name":"4608d7f5-46c5-4761-9882-6cc31b1d988e","path":"sprites/sprGoingHome/sprGoingHome.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprGoingHome","path":"sprites/sprGoingHome/sprGoingHome.yy",},"resourceVersion":"1.0","name":"1b5e0bd0-f4fe-45d3-bd70-ab8a09b36b03","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprAlarmBackground","path":"sprites/sprAlarmBackground/sprAlarmBackground.yy",},
+    "spriteId": {"name":"sprGoingHome","path":"sprites/sprGoingHome/sprGoingHome.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"154e4e70-03ff-4c80-8dbd-078b6092219d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"89f91a39-ddcc-43a6-ae99-599c3517eb63","path":"sprites/sprAlarmBackground/sprAlarmBackground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b6e3592d-3b76-4152-8e59-3848a581ed0a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1b5e0bd0-f4fe-45d3-bd70-ab8a09b36b03","path":"sprites/sprGoingHome/sprGoingHome.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprAlarmBackground","path":"sprites/sprAlarmBackground/sprAlarmBackground.yy",},
+    "parent": {"name":"sprGoingHome","path":"sprites/sprGoingHome/sprGoingHome.yy",},
     "resourceVersion": "1.3",
-    "name": "sprAlarmBackground",
+    "name": "sprGoingHome",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d6a8ace6-3af2-4628-b25b-3753a21d85ba","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4608d7f5-46c5-4761-9882-6cc31b1d988e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprAlarmBackground",
+  "name": "sprGoingHome",
   "tags": [],
   "resourceType": "GMSprite",
 }

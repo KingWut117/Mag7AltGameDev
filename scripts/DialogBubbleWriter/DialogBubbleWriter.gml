@@ -68,7 +68,7 @@ function DialogBubbleWriter(runType, roomName){
 		}
 			
 		if(roomName == global.ROOMS.GoingHome){
-			return "Set up going home room here"
+			return "Hey sweety how was your day?"
 		}
 		
 		if(roomName == global.ROOMS.TransFromAlarm){
@@ -76,11 +76,11 @@ function DialogBubbleWriter(runType, roomName){
 		}
 		
 		if(roomName == global.ROOMS.TransFromLecture){
-			return "Set up transition text for Conversation with Friend";
+			return "Yep, that was pretty much the only highlight of the day. Just the same old routine. Go to class, pretend to pay attention, get called on when you least expect it, finish class, and repeat. Luckily my other classes today were movies and interactive stuff. Its already lunch time, better meet up with Nick.";
 		}
 		
 		if(roomName == global.ROOMS.TransFromConversation){
-			return "Set up transition text for conclusion of route";
+			return "The day sure flew by today, it almost feels like lunch was a few minutes ago, weird. Well, I aint complaining. I am free!";
 		}
 		
 		if(roomName == global.ROOMS.TransToImplant){

@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8940dec7-30d7-49ba-90d1-6d2672bfb832","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8940dec7-30d7-49ba-90d1-6d2672bfb832","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"LayerId":{"name":"1b0d1975-5f14-47bc-b9dc-5c18719e889c","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprLectureBackground","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"resourceVersion":"1.0","name":"8940dec7-30d7-49ba-90d1-6d2672bfb832","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4d71191e-6ac1-4ef1-a865-22cf53034988","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4d71191e-6ac1-4ef1-a865-22cf53034988","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"LayerId":{"name":"8143db8a-de4c-481b-a43b-87677a8861ff","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprLectureBackground","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"resourceVersion":"1.0","name":"4d71191e-6ac1-4ef1-a865-22cf53034988","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprLectureBackground","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f2715ffe-04a2-455f-8d14-8b11aa3043a7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8940dec7-30d7-49ba-90d1-6d2672bfb832","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0b74df37-69bd-4de3-9f2a-8243669e139b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d71191e-6ac1-4ef1-a865-22cf53034988","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1b0d1975-5f14-47bc-b9dc-5c18719e889c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8143db8a-de4c-481b-a43b-87677a8861ff","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
