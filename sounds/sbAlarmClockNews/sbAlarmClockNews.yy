@@ -13,8 +13,8 @@
   "soundFile": "sbAlarmClockNews.mp3",
   "duration": 20.9813271,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "AlarmClock",
+    "path": "folders/Sounds/AlarmClock.yy",
   },
   "resourceVersion": "1.0",
   "name": "sbAlarmClockNews",

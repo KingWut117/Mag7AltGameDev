@@ -18,7 +18,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":37,"eventType":5,"collisionObjectId":null,"parent":{"name":"GoToGoingHomeDeaf","path":"objects/GoToGoingHomeDeaf/GoToGoingHomeDeaf.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":37,"eventType":5,"collisionObjectId":null,"parent":{"name":"GoToRoom","path":"objects/GoToRoom/GoToRoom.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":38,"eventType":5,"collisionObjectId":null,"parent":{"name":"GoToRoom","path":"objects/GoToRoom/GoToRoom.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":40,"eventType":5,"collisionObjectId":null,"parent":{"name":"GoToRoom","path":"objects/GoToRoom/GoToRoom.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -27,7 +29,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "GoToGoingHomeDeaf",
+  "name": "GoToRoom",
   "tags": [],
   "resourceType": "GMObject",
 }

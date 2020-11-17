@@ -53,18 +53,19 @@ function DialogBubbleWriter(runType, roomName){
 			return "Good morning listeners of Crimson 92.8, your leading station in all things music. Currently it is 9:00 AM and time for your morning local news report. Something interesting to start the day, Brickhall Middle School is now integrating deaf students into classes. I applaud the school board for this movement! Well done. We will be right back after this commercial break."
 			}
 	
-		if(roomName == global.ROOMS.Conversation){
-			textNum = irandom_range(1, 2);
-			if(textNum == 1)
-				return global.DIALOG.Conv1Start1;
-			else
-				return global.DIALOG.Conv1Start2;
-		}
+		//if(roomName == global.ROOMS.Conversation){
+		//	textNum = irandom_range(1, 2);
+		//	if(textNum == 1)
+		//		return global.DIALOG.Conv1Start1;
+		//	else
+		//		return global.DIALOG.Conv1Start2;
+		//}
+		
 		if(roomName == global.ROOMS.DescribeRun){
 			return "Please note, the experiences portrayed in this game is purposefully elaborated. All experiences and perspectives by the characters are a general sense for Deaf individuals with or without a cochlear implant. Not everyone experiences being Deaf the same.";
 		}
 		if(roomName == global.ROOMS.LectureGame){
-			return "Lecture Game (hearing)";
+			return "Mr. Edwards, Can you tell me what I just said?";
 		}
 			
 		if(roomName == global.ROOMS.GoingHome){
@@ -94,12 +95,12 @@ function DialogBubbleWriter(runType, roomName){
 		if(roomName == global.ROOMS.AlarmClockImplant){
 			return "BREAKING NEWS: Deaf kids allowed at school";
 		}
-		if(roomName == global.ROOMS.ConversationImplant){
-			textNum = irandom_range(1, 2);
-			if(textNum == 1)
-				return global.DIALOG.Conv1Start1;
-			else
-				return global.DIALOG.Conv1Start2;
+		//if(roomName == global.ROOMS.ConversationImplant){
+		//	textNum = irandom_range(1, 2);
+		//	if(textNum == 1)
+		//		return global.DIALOG.Conv1Start1;
+		//	else
+		//		return global.DIALOG.Conv1Start2;
 		}
 		if(roomName == global.ROOMS.DescribeRunImplant){
 			return "This is the beginning of the implant route";
@@ -135,13 +136,13 @@ function DialogBubbleWriter(runType, roomName){
 		if(roomName == global.ROOMS.AlarmClockDeaf){
 			return "BREAKING NEWS: Deaf kids allowed at school";
 		}
-		if(roomName == global.ROOMS.ConversationDeaf){
-			textNum = irandom_range(1, 2);
-			if(textNum == 1)
-				return global.DIALOG.Conv1Start1;
-			else
-				return global.DIALOG.Conv1Start2;
-		}
+		//if(roomName == global.ROOMS.ConversationDeaf){
+		//	textNum = irandom_range(1, 2);
+		//	if(textNum == 1)
+		//		return global.DIALOG.Conv1Start1;
+		//	else
+		//		return global.DIALOG.Conv1Start2;
+		//}
 		if(roomName == global.ROOMS.DescribeRunDeaf){
 			return "This is the beginning of the deaf route";
 		}
@@ -169,4 +170,3 @@ function DialogBubbleWriter(runType, roomName){
 			return "Set up transition text for beginning of the end";
 		}
 	}
-}

@@ -13,8 +13,8 @@
   "soundFile": "sbAlarmTrans.mp3",
   "duration": 16.3054085,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "TransAudio",
+    "path": "folders/Sounds/TransAudio.yy",
   },
   "resourceVersion": "1.0",
   "name": "sbAlarmTrans",

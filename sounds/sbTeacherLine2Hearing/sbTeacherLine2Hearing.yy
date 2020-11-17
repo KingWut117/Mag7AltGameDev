@@ -7,14 +7,14 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "grpLectureGame",
+    "path": "audiogroups/grpLectureGame",
   },
   "soundFile": "sbTeacherLine2Hearing.mp3",
   "duration": 3.139694,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "LectureGame",
+    "path": "folders/Sounds/LectureGame.yy",
   },
   "resourceVersion": "1.0",
   "name": "sbTeacherLine2Hearing",

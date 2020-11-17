@@ -19,11 +19,11 @@
             {"propertyId":{"name":"text","path":"objects/objDialogBubble/objDialogBubble.yy",},"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"value":"Lecture Game","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":29.0,"scaleY":7.66666651,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":96.0,"resourceVersion":"1.0","name":"lectureDialog","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
-            {"propertyId":{"name":"text","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"Viewing is important","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"text","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"We will be doing a writing warmup.","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"buttonName","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"lectureWrongButton1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.75,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":512.0,"resourceVersion":"1.0","name":"wrongButton1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
-            {"propertyId":{"name":"text","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"It is important to have good handwriting","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"text","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"1973","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"buttonName","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"lectureWrongButton2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.75,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":512.0,"resourceVersion":"1.0","name":"wrongButton2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
@@ -31,7 +31,7 @@
             {"propertyId":{"name":"buttonName","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"lectureRightButton","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.75,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":640.0,"resourceVersion":"1.0","name":"rightButton","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
-            {"propertyId":{"name":"text","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"Where is Lauren?","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"text","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"I wasn't paying attention, sorry.","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"buttonName","path":"objects/objInteractButton/objInteractButton.yy",},"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"value":"lectureWrongButton3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"objInteractButton","path":"objects/objInteractButton/objInteractButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.75,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":640.0,"resourceVersion":"1.0","name":"wrongButton3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -42,11 +42,11 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"lectureNextButton","path":"rooms/rmLectureGame/rmLectureGame.yy",},
-    {"name":"lectureDialog","path":"rooms/rmLectureGame/rmLectureGame.yy",},
     {"name":"wrongButton1","path":"rooms/rmLectureGame/rmLectureGame.yy",},
     {"name":"wrongButton2","path":"rooms/rmLectureGame/rmLectureGame.yy",},
     {"name":"rightButton","path":"rooms/rmLectureGame/rmLectureGame.yy",},
     {"name":"wrongButton3","path":"rooms/rmLectureGame/rmLectureGame.yy",},
+    {"name":"lectureDialog","path":"rooms/rmLectureGame/rmLectureGame.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
