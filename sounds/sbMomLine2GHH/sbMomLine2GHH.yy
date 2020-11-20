@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sbMomLine2GHH.mp3",
-  "duration": 2.591,
+  "duration": 3.662143,
   "parent": {
     "name": "GoingHome",
     "path": "folders/Sounds/GoingHome.yy",

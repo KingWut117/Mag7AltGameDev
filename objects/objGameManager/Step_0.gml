@@ -114,6 +114,7 @@ switch(roomName) {
 			audio_play_sound(sbTransFromAlarmImplant2, 1, false);
 			global.activeNextButton = true;
 		}
+		break;
 
 	case "rmLectureGameImplant" :
 		instance_deactivate_object(objInteractButton);
@@ -153,6 +154,7 @@ switch(roomName) {
 		if (audioProgress == 7 && !audio_is_playing(sbTransFromLectureImplant2)) {
 			global.activeNextButton = true;
 		}
+		break;
 		
 	case "rmGoingHomeImplant" :
 	
@@ -179,4 +181,5 @@ switch(roomName) {
 		if (audioProgress == 12 && !audio_is_playing(sbGoingHomeImplant5)) {
 			global.activeNextButton = true;
 		}
+		break;
 }
