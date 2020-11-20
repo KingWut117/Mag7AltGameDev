@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 var roomName = room_get_name(room);
 switch(roomName) {
-	
 	case "Menu" : 
 		randomize();
 		break;
@@ -67,9 +67,36 @@ switch(roomName) {
 		audio_play_sound(sbPlayerLine2GHH, 0, false);
 		break;
 		
+	case "rmTransToImplant" :
+		audio_group_load(grpLectureGameImplant);
+		break;
+		
+	case "rmTransFromAlarmImplant" :
+		audioProgress = 0;
+		audio_play_sound(sbTransFromAlarmImplant1, 0, false);
+		global.activeNextButton = false;
+		break;
+		
+	case "rmLectureGameImplant" :
+		audioProgress = 1;
+		audio_stop_sound(sbAlarmTrans)
+		global.activeNextButton = false;
+		instance_deactivate_object(objInteractButton);
+		instance_deactivate_object(objDialogBubble);
+		audioID = audio_play_sound(sbLectureGameImplantTeacher1, 0, false);
+		break;
+	
+	case "rmTransFromLectureImplant" :
+		audioProgress = 6;
+		global.activeNextButton = false;
+		audio_play_sound(sbTransFromLectureImplant1, 0, false);
+		break;
+			
 	case "rmGoingHomeImplant" :
+		global.activeNextButton = false;
+		break;
+		
 	case "rmGoingHomeDeaf" :
 		global.activeNextButton = false
 		break;
-	
 }

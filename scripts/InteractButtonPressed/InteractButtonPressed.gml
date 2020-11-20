@@ -74,6 +74,25 @@ function InteractButtonPressed(buttonName){
 		global.activeNextButton = true;
 		break; 
 		
+	//Implant Lecture Game
+	case "lectureWrongButton1Implant" : 
+		audio_play_sound(sbLectureGameImplantResponse1, 0, false);
+		break;
+		
+	case "lectureWrongButton2Implant" : 
+		audio_play_sound(sbLectureGameImplantResponse2, 0, false);
+		break;
+		
+	case "lectureWrongButton3Implant" : 
+		audio_play_sound(sbLectureGameImplantResponse4, 0, false);
+		break;
+		
+	case "lectureRightButtonImplant" :
+		audio_play_sound(sbLectureGameImplantResponse3, 0, 0);
+		audio_sound_gain(sbLectureGameImplantResponse3, 1, 0);
+		global.activeNextButton = true;
+		break; 
+		
 	
 	//Going Home Scene
 	case "Option1GoingHome" :
@@ -92,7 +111,10 @@ function InteractButtonPressed(buttonName){
 		global.activeNextButton = true;
 		break;
 		
-	
+	//Implant Going Home
+	case "goingHomeImplantBatteries" :
+		objGameManager.audioProgress = 8;
+		break;
 	
 	//Conversation Scene
 	case "convPositive": 
