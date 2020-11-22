@@ -14,10 +14,7 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[
-            {"propertyId":{"name":"text","path":"objects/objDialogBubble/objDialogBubble.yy",},"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"value":"Hearing Description","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"fontColor","path":"objects/objDialogBubble/objDialogBubble.yy",},"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"value":"$FF000000","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":30.333334,"scaleY":7.66666651,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":256.0,"resourceVersion":"1.0","name":"inst_58CD7028","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objDialogBubble","path":"objects/objDialogBubble/objDialogBubble.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":35.6666641,"scaleY":8.999999,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":224.0,"resourceVersion":"1.0","name":"inst_219486F3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objNextButton","path":"objects/objNextButton/objNextButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":576.0,"resourceVersion":"1.0","name":"descriptionNextButton","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"sprTitleBackground","path":"sprites/sprTitleBackground/sprTitleBackground.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
@@ -26,8 +23,8 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_58CD7028","path":"rooms/rmDescribeRun/rmDescribeRun.yy",},
     {"name":"descriptionNextButton","path":"rooms/rmDescribeRun/rmDescribeRun.yy",},
+    {"name":"inst_219486F3","path":"rooms/rmDescribeRun/rmDescribeRun.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

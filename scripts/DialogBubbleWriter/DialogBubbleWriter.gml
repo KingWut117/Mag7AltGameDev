@@ -11,7 +11,7 @@ global.ROOMS = {
 	TransFromAlarm : "rmTransFromAlarm",
 	LectureGame : "rmLectureGame",
 	TransFromLecture : "rmTransFromLecture",
-	Conversation : "rmConversation",
+	//Conversation : "rmConversation",
 	TransFromConversation : "rmTransFromConversation",
 	GoingHome : "rmGoingHome",
 	TransToImplant : "rmTransToImplant",
@@ -22,7 +22,7 @@ global.ROOMS = {
 	TransFromAlarmImplant : "rmTransFromAlarmImplant",
 	LectureGameImplant : "rmLectureGameImplant",
 	TransFromLectureImplant : "rmTransFromLectureImplant",
-	ConversationImplant : "rmConversationImplant",
+	//ConversationImplant : "rmConversationImplant",
 	TransFromConversationImplant : "rmTransFromConversationImplant",
 	GoingHomeImplant : "rmGoingHomeImplant",
 	TransToDeaf : "rmTransToDeaf",
@@ -33,7 +33,7 @@ global.ROOMS = {
 	TransFromAlarmDeaf  : "rmTransFromAlarmDeaf",
 	LectureGameDeaf : "rmLectureGameDeaf",
 	TransFromLectureDeaf  : "rmTransFromLectureDeaf",
-	ConversationDeaf  : "rmConversationDeaf",
+	//ConversationDeaf  : "rmConversationDeaf",
 	TransFromConversationDeaf  : "rmTransFromConversationDeaf",
 	GoingHomeDeaf  : "rmGoingHomeDeaf",
 	TransToEnd: "rmTransToEnd"
@@ -44,7 +44,7 @@ global.ROOMS = {
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function DialogBubbleWriter(runType, roomName){
 	
-	textNum = 0;
+	//textNum = 0;
 	
 	if(runType == global.RUN_TYPES.Play){
 		

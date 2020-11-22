@@ -6,6 +6,5 @@ options = ["Hearing", "Implant", "Deaf"];
 curRunName = options[0];
 global.activeNextButton = false;
 global.convCounter = 0;
-
 audioProgress = 2000000;
 

@@ -1,11 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 var roomName = room_get_name(room);
 switch(roomName) {
 	case "Menu" : 
 		randomize();
 		break;
+		
+	case "rmDescribeRun" :
+		audioProgress = -1
+		global.activeNextButton = false;
+		alarm[1] = 5*room_speed;
+		instance_activate_object(objDialogBubble)
+		break;
+		
 			
 	case "rmAlarmClock" :
 	case "rmAlarmClockDeaf" :
@@ -52,13 +59,10 @@ switch(roomName) {
 		global.activeNextButton = false;
 		audio_stop_sound(sbNickResp4);
 		audio_play_sound(sbPlayerLine1GHH,0, false);
-		
-
-	case "rmDescribeRun" :
-		global.activeNextButton = false;
-		alarm[1] = 5*room_speed;
 		break;
 		
+
+	
 	case "rmGoingHome" :
 		audioProgress = 11;
 		global.activeNextButton = false;
