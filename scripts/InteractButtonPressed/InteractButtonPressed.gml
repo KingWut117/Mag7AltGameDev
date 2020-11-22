@@ -57,18 +57,22 @@ function InteractButtonPressed(buttonName){
 		
 	//Lecture Game Scene
 	case "lectureWrongButton1" : 
+		audio_stop_all();
 		audio_play_sound(sbTeacherResponse1Hearing, 0, false);
 		break;
 		
 	case "lectureWrongButton2" : 
+		audio_stop_all();
 		audio_play_sound(sbTeacherResponse3Hearing, 0, false);
 		break;
 		
-	case "lectureWrongButton3" : 
+	case "lectureWrongButton3" :
+		audio_stop_all();
 		audio_play_sound(sbTeacherResponse4Hearing, 0, false);
 		break;
 		
 	case "lectureRightButton" :
+		audio_stop_all();
 		audio_play_sound(sbTeacherResponse2Hearing, 0, 0);
 		audio_sound_gain(sbTeacherResponse2Hearing, 1, 0);
 		global.activeNextButton = true;
@@ -76,18 +80,22 @@ function InteractButtonPressed(buttonName){
 		
 	//Implant Lecture Game
 	case "lectureWrongButton1Implant" : 
+		audio_stop_all();
 		audio_play_sound(sbLectureGameImplantResponse1, 0, false);
 		break;
 		
 	case "lectureWrongButton2Implant" : 
+		audio_stop_all();
 		audio_play_sound(sbLectureGameImplantResponse2, 0, false);
 		break;
 		
 	case "lectureWrongButton3Implant" : 
+		audio_stop_all();
 		audio_play_sound(sbLectureGameImplantResponse4, 0, false);
 		break;
 		
 	case "lectureRightButtonImplant" :
+		audio_stop_all();
 		audio_play_sound(sbLectureGameImplantResponse3, 0, 0);
 		audio_sound_gain(sbLectureGameImplantResponse3, 1, 0);
 		global.activeNextButton = true;
@@ -118,18 +126,22 @@ function InteractButtonPressed(buttonName){
 	
 	//Conversation Scene
 	case "convPositive": 
+		audio_stop_all();
 		audio_play_sound(sbNickResp1, 0, false);
 		break;
 		
 	case "convNegative" : 
+		audio_stop_all();
 		audio_play_sound(sbNickResp2, 0, false);
 		break;
 		
 	case "convNeutral" : 
+		audio_stop_all();
 		audio_play_sound(sbNickResp3, 0, false);
 		break;
 		
 	case "convSarcastic" :
+		audio_stop_all();
 		audio_play_sound(sbNickResp4, 0, false);
 		global.activeNextButton = true
 		break;

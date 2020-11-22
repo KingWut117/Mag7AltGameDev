@@ -22,6 +22,7 @@ switch(roomName) {
 		break;
 		
 	case "rmTransFromAlarm" :
+		instance_deactivate_object(objDialogBubble)
 		audio_stop_sound(sbAlarmClockNews)
 		audioID = audio_play_sound(sbAlarmTrans, 0, false);
 		break;
