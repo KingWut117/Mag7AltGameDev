@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
- room_goto(rmGoingHome)
+room_goto(rmGoingHome);
+activeNextButton = true;

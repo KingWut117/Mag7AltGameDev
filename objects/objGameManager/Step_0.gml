@@ -113,6 +113,7 @@ switch(roomName) {
 	case "rmTransFromAlarmImplant" :
 		if (audioProgress == 0 && !audio_is_playing(sbTransFromAlarmImplant1)) {
 			audio_play_sound(sbTransFromAlarmImplant2, 1, false);
+			audioProgress = 2000000;
 			global.activeNextButton = true;
 		}
 		break;
