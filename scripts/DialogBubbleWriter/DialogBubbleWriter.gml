@@ -160,6 +160,6 @@ function DialogBubbleWriter(runType, roomName){
 		}
 		
 		if(roomName == global.ROOMS.TransToEnd){
-			return "Set up transition text for beginning of the end";
+			return "Regardless of whether someone is Hearing, has a cochlear implant, or is Deaf; we all experience the world around us equally. Not one side is better than the other, nor shall they pity each other. Instead, focus on moving forward at the common goal of success.           Thanks for playing.";
 		}
 	}

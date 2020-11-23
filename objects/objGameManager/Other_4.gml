@@ -8,11 +8,11 @@ switch(roomName) {
 		
 	case "rmInstructions" :
 		instance_deactivate_object(objDialogBubbleJim);
-		global.activeNextButton = false
+		global.activeNextButton = false;
 		break;
 		
 	case "rmDescribeRun" :
-		audioProgress = -1
+		audioProgress = -1;
 		global.activeNextButton = false;
 		alarm[1] = 5*room_speed;
 		instance_activate_object(objDialogBubble)
@@ -93,11 +93,7 @@ switch(roomName) {
 		break;
 		
 	case "rmTransFromAlarmImplant" :
-<<<<<<< HEAD
 		instance_deactivate_object(objDialogBubble);
-=======
-		audio_stop_all();
->>>>>>> master
 		audioProgress = 0;
 		audio_play_sound(sbTransFromAlarmImplant1, 0, false);
 		global.activeNextButton = false;
@@ -113,22 +109,14 @@ switch(roomName) {
 		break;
 	
 	case "rmTransFromLectureImplant" :
-<<<<<<< HEAD
 		instance_deactivate_object(objDialogBubble);
-=======
-		audio_stop_all();
->>>>>>> master
 		audioProgress = 6;
 		global.activeNextButton = false;
 		audio_play_sound(sbTransFromLectureImplant1, 0, false);
 		break;
 			
 	case "rmGoingHomeImplant" :
-<<<<<<< HEAD
 		instance_deactivate_object(objDialogBubble);
-=======
-		audio_stop_all();
->>>>>>> master
 		global.activeNextButton = false;
 		break;
 		
@@ -139,10 +127,10 @@ switch(roomName) {
 		instance_deactivate_object(objDialogBubble);
 		instance_deactivate_object(objDialogBubbleEthan);
 		instance_deactivate_object(objDialogBubbleJim);
-		global.convProgress = 0
+		global.convProgress = 0;
+		break;
 		
 	case "rmGoingHomeDeaf" :
-		audio_stop_all();
 		global.activeNextButton = false
 		break;
 }
