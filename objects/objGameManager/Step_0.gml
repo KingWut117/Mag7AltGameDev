@@ -109,7 +109,7 @@ switch(roomName) {
 			
 //IMPLANT ROUTE
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
+	
 	case "rmTransFromAlarmImplant" :
 		if (audioProgress == 0 && !audio_is_playing(sbTransFromAlarmImplant1)) {
 			audio_play_sound(sbTransFromAlarmImplant2, 1, false);
@@ -181,6 +181,81 @@ switch(roomName) {
 		
 		if (audioProgress == 12 && !audio_is_playing(sbGoingHomeImplant5)) {
 			global.activeNextButton = true;
+		}
+		break;
+		
+		
+//DEAF ROUTE
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	case "rmConversationDeaf" :
+		
+		if (global.convProgress == 0) {
+			instance_activate_object(objDialogBubbleDeaf);
+		}
+		
+		if (global.convProgress == 1) {
+			instance_deactivate_object(objDialogBubbleDeaf);
+			instance_activate_object(objDialogBubbleEthan);
+		}
+		
+		if (global.convProgress == 2) {
+			instance_deactivate_object(objDialogBubbleEthan);
+			instance_activate_object(objDialogBubbleJim);
+		}
+		
+		if(global.convProgress == 3) {
+			instance_deactivate_object(objDialogBubbleJim);
+			instance_activate_object(objDialogBubbleDeaf);
+			objDialogBubbleDeaf.text = "Okay, thanks guys.";
+		}
+		
+		if (global.convProgress == 4) {
+			objDialogBubbleDeaf.text = "....";
+		}
+		
+		if (global.convProgress == 5) {
+			objDialogBubbleDeaf.text = "Whats going on now guys?";
+		}
+		
+		if (global.convProgress == 6) {
+			instance_deactivate_object(objDialogBubbleDeaf);
+			instance_activate_object(objDialogBubbleEthan);
+			objDialogBubbleEthan.text = "One second, Jim is explaining to the teacher why it is okay to pass notes in class."
+		}
+		
+		if (global.convProgress == 7) {
+			instance_deactivate_object(objDialogBubbleEthan);
+			instance_activate_object(objDialogBubbleDeaf);
+			objDialogBubbleDeaf.text = "...."
+		}
+		
+		if (global.convProgress == 8) {
+			objDialogBubbleDeaf.text = "Are we okay?";
+		}
+		
+		if (global.convProgress == 9) {
+			instance_deactivate_object(objDialogBubbleDeaf);
+			instance_activate_object(objDialogBubbleJim);
+			objDialogBubbleJim.text = "Yeah, we are okay, that took way more explaining than what was needed."
+		}
+		
+		if (global.convProgress == 10) {
+			instance_deactivate_object(objDialogBubbleJim);
+			instance_activate_object(objDialogBubbleDeaf);
+			objDialogBubbleDeaf.text = "Sorry to get you guys into trouble.";
+		}
+		
+		if(global.convProgress == 11) {
+			instance_deactivate_object(objDialogBubbleDeaf);
+			instance_activate_object(objDialogBubbleEthan);
+			objDialogBubbleEthan.text = "Don’t sweat it! Your fine!";
+		}
+		
+		if (global.convProgress == 12) {
+			instance_deactivate_object(objDialogBubbleEthan);
+			instance_deactivate_object(objInteractButton);
+			global.activeNextButton = true
 		}
 		break;
 }

@@ -7,4 +7,5 @@ curRunName = options[0];
 global.activeNextButton = false;
 global.convCounter = 0;
 audioProgress = 2000000;
+global.convProgress = 2000000;
 

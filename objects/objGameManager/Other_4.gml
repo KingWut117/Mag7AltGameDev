@@ -14,21 +14,26 @@ switch(roomName) {
 		break;
 		
 			
-	case "rmAlarmClock" :
+	
 	case "rmAlarmClockDeaf" :
+		audio_stop_all();
+		instance_deactivate_object(objDialogBubble);
+		break;
+		
+	case "rmAlarmClock" :
 	case "rmAlarmClockImplant" :
 		instance_deactivate_object(objDialogBubble);
 		global.activeNextButton = false;
 		break;
 		
 	case "rmTransFromAlarm" :
-		instance_deactivate_object(objDialogBubble)
-		audio_stop_sound(sbAlarmClockNews)
+		instance_deactivate_object(objDialogBubble);
+		audio_stop_sound(sbAlarmClockNews);
 		audioID = audio_play_sound(sbAlarmTrans, 0, false);
 		break;
 		
 	case "rmLectureGame" :
-		audio_stop_sound(sbAlarmTrans)
+		audio_stop_sound(sbAlarmTrans);
 		global.activeNextButton = false;
 		instance_deactivate_object(objInteractButton);
 		instance_deactivate_object(objDialogBubble);
@@ -39,7 +44,8 @@ switch(roomName) {
 		break;
 		
 	case "rmTransFromLecture" :
-		audioProgress = 4
+		instance_deactivate_object(objDialogBubble);
+		audioProgress = 4;
 		global.activeNextButton = false;
 		audio_stop_sound(sbTeacherResponse2Hearing);
 		audio_play_sound(sbTransFromLectureHearing, 0, false);
@@ -56,6 +62,7 @@ switch(roomName) {
 		break;
 		
 	case "rmTransFromConversation" :
+		instance_deactivate_object(objDialogBubble);
 		audioProgress = 10;
 		global.activeNextButton = false;
 		audio_stop_sound(sbNickResp4);
@@ -76,7 +83,12 @@ switch(roomName) {
 		audio_group_load(grpLectureGameImplant);
 		break;
 		
+	case "rmDescribeRunImplant" :
+		audio_stop_all();
+		break;
+		
 	case "rmTransFromAlarmImplant" :
+		instance_deactivate_object(objDialogBubble);
 		audioProgress = 0;
 		audio_play_sound(sbTransFromAlarmImplant1, 0, false);
 		global.activeNextButton = false;
@@ -92,14 +104,25 @@ switch(roomName) {
 		break;
 	
 	case "rmTransFromLectureImplant" :
+		instance_deactivate_object(objDialogBubble);
 		audioProgress = 6;
 		global.activeNextButton = false;
 		audio_play_sound(sbTransFromLectureImplant1, 0, false);
 		break;
 			
 	case "rmGoingHomeImplant" :
+		instance_deactivate_object(objDialogBubble);
 		global.activeNextButton = false;
 		break;
+		
+//DEAF ROUTE
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	case "rmConversationDeaf":
+		instance_deactivate_object(objDialogBubble);
+		instance_deactivate_object(objDialogBubbleEthan);
+		instance_deactivate_object(objDialogBubbleJim);
+		global.convProgress = 0
 		
 	case "rmGoingHomeDeaf" :
 		global.activeNextButton = false

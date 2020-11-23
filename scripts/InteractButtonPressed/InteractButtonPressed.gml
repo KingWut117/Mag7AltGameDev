@@ -39,10 +39,14 @@ function InteractButtonPressed(buttonName){
 	{
 		
 	// Alarm Clock Scene
-	case "alarmButton" : 
 	case "alarmButtonDeaf" : 
+		instance_activate_object(objDialogBubble);
+		audio_stop_all();
+		global.activeNextButton = true;
+		break;
+		
+	case "alarmButton" : 
 	case "alarmButtonImplant" : 
-		instance_activate_object(objDialogBubble); 
 		audioID = audio_play_sound(sbAlarmClockNews, 0, false)
 		is_playing_sound = 0
 		if audio_is_playing(sbAlarmClockNews){
@@ -104,18 +108,26 @@ function InteractButtonPressed(buttonName){
 	
 	//Going Home Scene
 	case "Option1GoingHome" :
+		audio_stop_all();
+		audio_play_sound(sbCountry, 1, true);
 		global.activeNextButton = true;
 		break;
 		
 	case "Option2GoingHome" :
+		audio_stop_all();
+		audio_play_sound(sbJazz, 1, true);
 		global.activeNextButton = true;
 		break;
 		
 	case "Option3GoingHome" :
+		audio_stop_all();
+		audio_play_sound(sbRock, 1, true);
 		global.activeNextButton = true;
 		break;
 		
 	case "Option4GoingHome" :
+		audio_stop_all();
+		audio_play_sound(sbHipHop, 1, true);
 		global.activeNextButton = true;
 		break;
 		
@@ -143,6 +155,24 @@ function InteractButtonPressed(buttonName){
 	case "convSarcastic" :
 		audio_stop_all();
 		audio_play_sound(sbNickResp4, 0, false);
+		global.activeNextButton = true
+		break;
+		
+	//Deaf Conversation
+	case "advanceDeaf" :
+		global.convProgress += 1
+		break;
+		
+		
+	//Deaf Going Home 
+	case "option1deaf":
+	case "option2deaf":
+	case "option3deaf":
+		objDialogBubble.text = "Nice try! I know you can do this."
+		break;
+	
+	case "option4deaf": 
+		objDialogBubble.text = "Good job! Dad has already started on dinner, hope you like fish tacos!"
 		global.activeNextButton = true
 		break;
 	}
