@@ -9,6 +9,7 @@
     {"id":{"name":"sprLectureBackground","path":"sprites/sprLectureBackground/sprLectureBackground.yy",},"order":11,},
     {"id":{"name":"rmTransFromConversationDeaf","path":"rooms/rmTransFromConversationDeaf/rmTransFromConversationDeaf.yy",},"order":27,},
     {"id":{"name":"rmConversationImplant","path":"rooms/rmConversationImplant/rmConversationImplant.yy",},"order":19,},
+    {"id":{"name":"rmInstructions","path":"rooms/rmInstructions/rmInstructions.yy",},"order":32,},
     {"id":{"name":"sbTransFromLectureImplant1","path":"sounds/sbTransFromLectureImplant1/sbTransFromLectureImplant1.yy",},"order":5,},
     {"id":{"name":"sbTellMeWhatIJustSaid","path":"sounds/sbTellMeWhatIJustSaid/sbTellMeWhatIJustSaid.yy",},"order":10,},
     {"id":{"name":"sbJazz","path":"sounds/sbJazz/sbJazz.yy",},"order":10,},
@@ -130,6 +131,7 @@
   },
   "RoomOrder": [
     {"name":"Menu","path":"rooms/Menu/Menu.yy",},
+    {"name":"rmInstructions","path":"rooms/rmInstructions/rmInstructions.yy",},
     {"name":"rmDescribeRun","path":"rooms/rmDescribeRun/rmDescribeRun.yy",},
     {"name":"rmAlarmClock","path":"rooms/rmAlarmClock/rmAlarmClock.yy",},
     {"name":"rmTransFromAlarm","path":"rooms/rmTransFromAlarm/rmTransFromAlarm.yy",},

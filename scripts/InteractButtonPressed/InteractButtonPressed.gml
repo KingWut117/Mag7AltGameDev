@@ -38,6 +38,14 @@ function InteractButtonPressed(buttonName){
 	switch(buttonName)
 	{
 		
+	//Instructions Room
+	
+	case "InstButton":
+		instance_activate_object(objDialogBubbleJim);
+		global.activeNextButton = true
+		break;
+		
+		
 	// Alarm Clock Scene
 	case "alarmButtonDeaf" : 
 		instance_activate_object(objDialogBubble);

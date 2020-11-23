@@ -6,6 +6,11 @@ switch(roomName) {
 		randomize();
 		break;
 		
+	case "rmInstructions" :
+		instance_deactivate_object(objDialogBubbleJim);
+		global.activeNextButton = false
+		break;
+		
 	case "rmDescribeRun" :
 		audioProgress = -1
 		global.activeNextButton = false;

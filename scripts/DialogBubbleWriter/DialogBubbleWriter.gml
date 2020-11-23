@@ -85,7 +85,7 @@ function DialogBubbleWriter(runType, roomName){
 		}
 		
 		if(roomName == global.ROOMS.TransToImplant){
-			return "Ethan's day could have been better, but lets see how Jim's day goes.";
+			return "";
 		}
 		
 		
@@ -103,7 +103,7 @@ function DialogBubbleWriter(runType, roomName){
 		//		return global.DIALOG.Conv1Start2;
 		}
 		if(roomName == global.ROOMS.DescribeRunImplant){
-			return "This is the beginning of the implant route";
+			return "Ethan's day could have been better, but lets see how Jim's day goes.";
 		}
 		if(roomName == global.ROOMS.LectureGameImplant){
 			return "Lecture Game (hearing)";
