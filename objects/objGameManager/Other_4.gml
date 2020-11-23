@@ -77,6 +77,7 @@ switch(roomName) {
 		break;
 		
 	case "rmTransFromAlarmImplant" :
+		audio_stop_all();
 		audioProgress = 0;
 		audio_play_sound(sbTransFromAlarmImplant1, 0, false);
 		global.activeNextButton = false;
@@ -92,16 +93,19 @@ switch(roomName) {
 		break;
 	
 	case "rmTransFromLectureImplant" :
+		audio_stop_all();
 		audioProgress = 6;
 		global.activeNextButton = false;
 		audio_play_sound(sbTransFromLectureImplant1, 0, false);
 		break;
 			
 	case "rmGoingHomeImplant" :
+		audio_stop_all();
 		global.activeNextButton = false;
 		break;
 		
 	case "rmGoingHomeDeaf" :
+		audio_stop_all();
 		global.activeNextButton = false
 		break;
 }
