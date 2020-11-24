@@ -64,7 +64,7 @@ function InteractButtonPressed(buttonName){
 		if (is_playing_sound == 1){
 			global.activeNextButton = true;
 		}
-
+		instance_deactivate_object(objInteractButton);
 		break;
 		
 	//Lecture Game Scene
@@ -88,6 +88,7 @@ function InteractButtonPressed(buttonName){
 		audio_play_sound(sbTeacherResponse2Hearing, 0, 0);
 		audio_sound_gain(sbTeacherResponse2Hearing, 1, 0);
 		global.activeNextButton = true;
+		instance_deactivate_object(objInteractButton);
 		break; 
 		
 	//Implant Lecture Game
@@ -108,6 +109,7 @@ function InteractButtonPressed(buttonName){
 		
 	case "lectureRightButtonImplant" :
 		audio_stop_all();
+		instance_deactivate_object(objInteractButton);
 		audio_play_sound(sbLectureGameImplantResponse3, 0, 0);
 		audio_sound_gain(sbLectureGameImplantResponse3, 1, 0);
 		global.activeNextButton = true;
@@ -141,6 +143,7 @@ function InteractButtonPressed(buttonName){
 		
 	//Implant Going Home
 	case "goingHomeImplantBatteries" :
+		instance_deactivate_object(objInteractButton);
 		objGameManager.audioProgress = 8;
 		break;
 	
@@ -162,6 +165,7 @@ function InteractButtonPressed(buttonName){
 		
 	case "convSarcastic" :
 		audio_stop_all();
+		instance_deactivate_object(objInteractButton);
 		audio_play_sound(sbNickResp4, 0, false);
 		global.activeNextButton = true
 		break;

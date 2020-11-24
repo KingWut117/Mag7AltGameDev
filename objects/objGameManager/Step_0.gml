@@ -5,6 +5,7 @@ if(!global.activeNextButton)
 	instance_deactivate_object(objNextButton);
 else
 	instance_activate_object(objNextButton);
+	
 
 
 var roomName = room_get_name(room);
@@ -14,8 +15,6 @@ switch(roomName) {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
 	case "rmLectureGame" :
-		instance_deactivate_object(objInteractButton);
-
 		if (audioProgress == 0 && !audio_is_playing(sbPlayerLine1Hearing)) {
 			audio_play_sound(sbTeacherLine2Hearing, 0, false);
 			audioProgress = 1;
@@ -34,6 +33,7 @@ switch(roomName) {
 		 if (audioProgress == 3 && !audio_is_playing(sbTellMeWhatIJustSaid)) {
 			 instance_activate_object(objInteractButton);
 			 instance_activate_object(objDialogBubble);
+			 audioProgress = 20000;
 		}
 		
 		break;
@@ -113,13 +113,14 @@ switch(roomName) {
 	case "rmTransFromAlarmImplant" :
 		if (audioProgress == 0 && !audio_is_playing(sbTransFromAlarmImplant1)) {
 			audio_play_sound(sbTransFromAlarmImplant2, 1, false);
+			audioProgress = 1;
+		}
+		if (audioProgress == 1) {
 			global.activeNextButton = true;
 		}
 		break;
 
 	case "rmLectureGameImplant" :
-		instance_deactivate_object(objInteractButton);
-
 		if (audioProgress == 1 && !audio_is_playing(sbLectureGameImplantTeacher1)) {
 			audio_play_sound(sbLectureGameImplantEthanUm, 0, false);
 			audioProgress = 2;
@@ -142,6 +143,7 @@ switch(roomName) {
 		
 		 if (audioProgress == 5 && !audio_is_playing(sbLectureGameImplantTeacher2)) {
 			 instance_activate_object(objInteractButton);
+			 audioProgress = 20000;
 		}
 		break;
 			

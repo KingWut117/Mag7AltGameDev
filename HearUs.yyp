@@ -31,6 +31,7 @@
     {"id":{"name":"sbTransFromLectureHearing","path":"sounds/sbTransFromLectureHearing/sbTransFromLectureHearing.yy",},"order":1,},
     {"id":{"name":"PlayButtonSpr","path":"sprites/PlayButtonSpr/PlayButtonSpr.yy",},"order":0,},
     {"id":{"name":"sbLectureGameImplantResponse3","path":"sounds/sbLectureGameImplantResponse3/sbLectureGameImplantResponse3.yy",},"order":4,},
+    {"id":{"name":"implantBeep","path":"sounds/implantBeep/implantBeep.yy",},"order":23,},
     {"id":{"name":"sbNickResp2","path":"sounds/sbNickResp2/sbNickResp2.yy",},"order":6,},
     {"id":{"name":"sprGoingHome","path":"sprites/sprGoingHome/sprGoingHome.yy",},"order":16,},
     {"id":{"name":"rmTransFromAlarmImplant","path":"rooms/rmTransFromAlarmImplant/rmTransFromAlarmImplant.yy",},"order":16,},

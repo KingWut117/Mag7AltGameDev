@@ -94,14 +94,21 @@ switch(roomName) {
 		
 	case "rmTransFromAlarmImplant" :
 		instance_deactivate_object(objDialogBubble);
+		implantBeeping = true;
+		implantBeepInterval = 15;
+		beepVolume = .01;
+		alarm[5] = room_speed*implantBeepInterval;
 		audioProgress = 0;
 		audio_play_sound(sbTransFromAlarmImplant1, 0, false);
 		global.activeNextButton = false;
 		break;
 		
 	case "rmLectureGameImplant" :
+		implantBeeping = true;
+		implantBeepInterval = 10;
+		beepVolume = .05;
+		alarm[5] = room_speed*implantBeepInterval;
 		audioProgress = 1;
-		audio_stop_sound(sbAlarmTrans)
 		global.activeNextButton = false;
 		instance_deactivate_object(objInteractButton);
 		instance_deactivate_object(objDialogBubble);
@@ -109,6 +116,10 @@ switch(roomName) {
 		break;
 	
 	case "rmTransFromLectureImplant" :
+		implantBeeping = true;
+		implantBeepInterval = 5;
+		beepVolume = .1;
+		alarm[5] = room_speed*implantBeepInterval;
 		instance_deactivate_object(objDialogBubble);
 		audioProgress = 6;
 		global.activeNextButton = false;

@@ -2,6 +2,7 @@
 // You can write your code in this editor
 audio_group_load(grpLectureGame);
 audio_group_load(grpConversation);
+audio_group_load(grpLectureGameImplant);
 options = ["Hearing", "Implant", "Deaf"];
 curRunName = options[0];
 global.activeNextButton = false;
