@@ -167,7 +167,74 @@ function InteractButtonPressed(buttonName){
 		audio_stop_all();
 		instance_deactivate_object(objInteractButton);
 		audio_play_sound(sbNickResp4, 0, false);
-		global.activeNextButton = true
+		global.activeNextButton = true;
+		break;
+		
+	//Implant Conversation
+	case "noteButton" : 
+		global.noteProgress += 1;
+		switch (global.noteProgress) {
+			case 2 : 
+				NoteMover("right", 2);
+				break;
+				
+			case 3 : 
+				NoteMover("right", 3);
+				break;
+				
+			case 4 : 
+				NoteMover("bottom", 4);
+				break;
+				
+			case 5 : 
+				NoteMover("left", 5);
+				break;
+				
+			case 6 : 
+				NoteMover("right", 6);
+				break;
+				
+			case 7 : 
+				NoteMover("left", 7);
+				break;
+				
+			case 8 : 
+				NoteMover("bottom", 8);
+				break;
+				
+			case 9 : 
+				NoteMover("right", 9);
+				break;
+				
+			case 10 : 
+				NoteMover("bottom", 10);
+				break;
+				
+			case 11 : 
+				NoteMover("left", 11);
+				break;
+				
+			case 12 : 
+				NoteMover("bottom", 12);
+				break;
+				
+			case 13 : 
+				NoteMover("right", 13);
+				break;
+				
+			case 14 :
+				NoteMover("left", 14)
+				break;
+				
+			case 15 :
+				NoteMover("bottom", 15)
+				break;
+				
+			case 16 :
+				NoteMover("left", 16)
+				global.activeNextButton = true
+				break;
+		}
 		break;
 		
 	//Deaf Conversation

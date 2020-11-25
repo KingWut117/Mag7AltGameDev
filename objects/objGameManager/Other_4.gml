@@ -125,6 +125,17 @@ switch(roomName) {
 		global.activeNextButton = false;
 		audio_play_sound(sbTransFromLectureImplant1, 0, false);
 		break;
+		
+	case "rmConversationImplant" :
+		implantBeeping = true;
+		implantBeepInterval = 2.5;
+		beepVolume = .25;
+		alarm[5] = room_speed*implantBeepInterval;
+		alarm[6] = room_speed*10;
+		global.noteProgress = 1;
+		NoteMover("left", 1);
+		global.activeNextButton = false;
+		break;	
 			
 	case "rmGoingHomeImplant" :
 		instance_deactivate_object(objDialogBubble);
